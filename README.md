@@ -212,7 +212,7 @@ Executor: It is a JVM process that is used to execute job in the worker nodes.
 
 
 
-HIVE Architecture
+## HIVE Architecture
 
 
 Hive is a data warehouse system for Hadoop. It is used to run SQL like queries as Map Reduce jobs.
@@ -227,3 +227,5 @@ Execution Engine – Connected to the Hadoop framework. It executes the plan cre
 
 
 
+## loading the data in the table
+load data  inpath 'hdfs:///myexam/examfile/output ' overwrite into table tablename;
